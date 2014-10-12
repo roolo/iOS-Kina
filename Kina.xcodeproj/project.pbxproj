@@ -13,6 +13,15 @@
 		49FBE8D719E9CDEA00A09104 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FBE8D619E9CDEA00A09104 /* Images.xcassets */; };
 		49FBE8DA19E9CDEA00A09104 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49FBE8D819E9CDEA00A09104 /* LaunchScreen.xib */; };
 		49FBE8E619E9CDEB00A09104 /* KinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBE8E519E9CDEB00A09104 /* KinaTests.swift */; };
+		49FBE8F819E9D3C500A09104 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBE8F019E9D3C500A09104 /* GCD.swift */; };
+		49FBE8F919E9D3C500A09104 /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBE8F119E9D3C500A09104 /* Net.swift */; };
+		49FBE8FA19E9D3C500A09104 /* NetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBE8F219E9D3C500A09104 /* NetData.swift */; };
+		49FBE8FB19E9D3C500A09104 /* NetDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBE8F319E9D3C500A09104 /* NetDownloadTask.swift */; };
+		49FBE8FC19E9D3C500A09104 /* NetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBE8F419E9D3C500A09104 /* NetHelper.swift */; };
+		49FBE8FD19E9D3C500A09104 /* NetRequestSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBE8F519E9D3C500A09104 /* NetRequestSerialization.swift */; };
+		49FBE8FE19E9D3C500A09104 /* NetResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBE8F619E9D3C500A09104 /* NetResponseData.swift */; };
+		49FBE8FF19E9D3C500A09104 /* NetUploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBE8F719E9D3C500A09104 /* NetUploadTask.swift */; };
+		49FBE90119E9E8C400A09104 /* MoviesTableViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBE90019E9E8C400A09104 /* MoviesTableViewControllerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 		49FBE8DF19E9CDEA00A09104 /* KinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FBE8E419E9CDEB00A09104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49FBE8E519E9CDEB00A09104 /* KinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinaTests.swift; sourceTree = "<group>"; };
+		49FBE8F019E9D3C500A09104 /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		49FBE8F119E9D3C500A09104 /* Net.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
+		49FBE8F219E9D3C500A09104 /* NetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetData.swift; sourceTree = "<group>"; };
+		49FBE8F319E9D3C500A09104 /* NetDownloadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetDownloadTask.swift; sourceTree = "<group>"; };
+		49FBE8F419E9D3C500A09104 /* NetHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetHelper.swift; sourceTree = "<group>"; };
+		49FBE8F519E9D3C500A09104 /* NetRequestSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetRequestSerialization.swift; sourceTree = "<group>"; };
+		49FBE8F619E9D3C500A09104 /* NetResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetResponseData.swift; sourceTree = "<group>"; };
+		49FBE8F719E9D3C500A09104 /* NetUploadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetUploadTask.swift; sourceTree = "<group>"; };
+		49FBE90019E9E8C400A09104 /* MoviesTableViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesTableViewControllerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,7 @@
 			children = (
 				49FBE8CF19E9CDEA00A09104 /* AppDelegate.swift */,
 				49FBE8D119E9CDEA00A09104 /* ViewController.swift */,
+				49FBE90019E9E8C400A09104 /* MoviesTableViewControllerTableViewController.swift */,
 				49FBE8D319E9CDEA00A09104 /* Main.storyboard */,
 				49FBE8D619E9CDEA00A09104 /* Images.xcassets */,
 				49FBE8D819E9CDEA00A09104 /* LaunchScreen.xib */,
@@ -90,6 +109,7 @@
 		49FBE8CD19E9CDEA00A09104 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				49FBE8EF19E9D3C500A09104 /* Net */,
 				49FBE8CE19E9CDEA00A09104 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +130,21 @@
 				49FBE8E419E9CDEB00A09104 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49FBE8EF19E9D3C500A09104 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				49FBE8F019E9D3C500A09104 /* GCD.swift */,
+				49FBE8F119E9D3C500A09104 /* Net.swift */,
+				49FBE8F219E9D3C500A09104 /* NetData.swift */,
+				49FBE8F319E9D3C500A09104 /* NetDownloadTask.swift */,
+				49FBE8F419E9D3C500A09104 /* NetHelper.swift */,
+				49FBE8F519E9D3C500A09104 /* NetRequestSerialization.swift */,
+				49FBE8F619E9D3C500A09104 /* NetResponseData.swift */,
+				49FBE8F719E9D3C500A09104 /* NetUploadTask.swift */,
+			);
+			path = Net;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +247,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FBE8FB19E9D3C500A09104 /* NetDownloadTask.swift in Sources */,
+				49FBE8F819E9D3C500A09104 /* GCD.swift in Sources */,
+				49FBE90119E9E8C400A09104 /* MoviesTableViewControllerTableViewController.swift in Sources */,
 				49FBE8D219E9CDEA00A09104 /* ViewController.swift in Sources */,
+				49FBE8FA19E9D3C500A09104 /* NetData.swift in Sources */,
 				49FBE8D019E9CDEA00A09104 /* AppDelegate.swift in Sources */,
+				49FBE8FF19E9D3C500A09104 /* NetUploadTask.swift in Sources */,
+				49FBE8FC19E9D3C500A09104 /* NetHelper.swift in Sources */,
+				49FBE8FE19E9D3C500A09104 /* NetResponseData.swift in Sources */,
+				49FBE8FD19E9D3C500A09104 /* NetRequestSerialization.swift in Sources */,
+				49FBE8F919E9D3C500A09104 /* Net.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +449,7 @@
 				49FBE8EB19E9CDEB00A09104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49FBE8EC19E9CDEB00A09104 /* Build configuration list for PBXNativeTarget "KinaTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +458,7 @@
 				49FBE8EE19E9CDEB00A09104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
