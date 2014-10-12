@@ -1,5 +1,6 @@
 # iOS-Kina
 
+![Screen](https://files.app.net/wsrsdsRew.png)
 
 My learning project for iOS Dev.
 
